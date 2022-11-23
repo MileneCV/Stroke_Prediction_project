@@ -37,7 +37,7 @@ According to the World Health Organization (WHO) stroke is the 2nd leading cause
 #### Results
 Here are examples of how to embed images from your sub-folder
 Visual 1 Title
-sample image
+![age](download.png)
 
 Sentence about visualization.
 
