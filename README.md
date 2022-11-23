@@ -42,16 +42,21 @@ Patients who have high level of glucose had stroke (1) and have heart disease(1)
 
 ![Stroke_Prediction_project_2](stroke2.png)
 
-Patients who had stroke (1) are older than 40 years old and have higher glucose level than in patients who didn't have stroke (0). 
+Patients who had stroke (1) are older than 40 years old and have higher glucose level than patients who didn't have stroke (0). 
+
+![Stroke_Prediction_project_2](stroke3.png)
+
+Patients who have higer levels of glucose have hypertension and had stroke.
 
 
 
-Model
-Describe your final model
+#### Model
+The best model tested was Logistic Regression after we change the original dataframe with some feature engineering. 
 
-Report the most important metrics
+#### The most important metrics
 
-Refer to the metrics to describe how well the model would solve the business problem
+Since this prediction is to diagnose stroke the better model is that with lower False negative rate and better recall. With logistic regression in the test data the accuracy was 75%, recall 82% and false negative rate was 17%.  Definitely was the better model: 
+
 
 Recommendations:
 More of your own text here
@@ -60,4 +65,4 @@ Limitations & Next Steps
 More of your own text here
 
 For further information
-For any additional questions, please contact email
+For any additional questions, please contact milene.c.vallejo@gmail.com
