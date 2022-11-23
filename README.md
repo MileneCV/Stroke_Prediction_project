@@ -35,11 +35,10 @@ According to the World Health Organization (WHO) stroke is the 2nd leading cause
  
 
 #### Results
-Here are examples of how to embed images from your sub-folder
-Visual 1 Title
-![Stroke_Prediction_project_2](age.png)
 
-Sentence about visualization.
+![Stroke_Prediction_project_2](stroke1.png)
+
+Patients who have high level of glucose had stroke (1) and have heart disease(1).
 
 Visual 2 Title
 Model
