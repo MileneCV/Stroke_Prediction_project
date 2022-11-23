@@ -60,7 +60,7 @@ Since this prediction is to diagnose stroke the better model is that with lower 
 ![Stroke_Prediction_project_2](stroke4.png)
 
 
-###Recommendations:
+### Recommendations:
 Patient older than 40 years olde, with high glucose level or/and hypertension or/and heart disease have more proprability to have stroke. So is better search for stroke symptoms and start early treatment.  
 
 #### Limitations & Next Steps
