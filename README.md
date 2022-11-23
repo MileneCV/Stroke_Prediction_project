@@ -7,18 +7,18 @@
 
 
 
-#### Data:
+### Data:
 
 According to the World Health Organization (WHO) stroke is the 2nd leading cause of death globally, responsible for approximately 11% of total deaths. This dataset is used to predict whether a patient is likely to get stroke based on the input parameters like gender, age, various diseases, and smoking status. Each row in the data provides relavant information about the patient.
 
-#### Methods
+### Methods
 
-##### Exploratory Visual and Analysis: 
+#### Exploratory Visual and Analysis: 
 
 - The original dataframe was divied in 2: pacients who had stroke and patients who didn't. 
 - Boxplot, barplot, lineplot and histplot were created to find correlation between stroke and others features. 
 
-##### Machine Learning part: 
+#### Machine Learning part: 
 - Dropping unnecessary columns.
 - Data preparation: check duplicates, check inconsistencies values, check dtype of all columns. 
 - Train/Test split: "stroke" column as target.
@@ -34,7 +34,7 @@ According to the World Health Organization (WHO) stroke is the 2nd leading cause
 - I was looking for a model with lower false negative rate that means with higher recall. 
  
 
-#### Results
+### Results
 
 ![Stroke_Prediction_project_2](stroke1.png)
 
@@ -50,7 +50,7 @@ Patients who have higer levels of glucose have hypertension and had stroke.
 
 
 
-#### Model
+### Model
 The best model tested was Logistic Regression after we change the original dataframe with some feature engineering. 
 
 #### The most important metrics
@@ -60,11 +60,11 @@ Since this prediction is to diagnose stroke the better model is that with lower 
 ![Stroke_Prediction_project_2](stroke4.png)
 
 
-Recommendations:
-More of your own text here
+###Recommendations:
+Patient older than 40 years olde, with high glucose level or/and hypertension or/and heart disease have more proprability to have stroke. So is better search for stroke symptoms and start early treatment.  
 
-Limitations & Next Steps
-More of your own text here
+#### Limitations & Next Steps
+The better model has 17% of false negative rate and 75% of accuracy. They are not perfect number maybe is because the dataset is unbalaced  about 95% didn't have stroke and 5% had.
 
 For further information
 For any additional questions, please contact milene.c.vallejo@gmail.com
