@@ -36,15 +36,14 @@ According to the World Health Organization (WHO) stroke is the 2nd leading cause
 
 ### Results
 
-![Stroke_Prediction_project_2](stroke1.png)
+
 
 Patients who have high level of glucose had stroke (1) and have heart disease(1).
 
-![Stroke_Prediction_project_2](stroke2.png)
 
 Patients who had stroke (1) are older than 40 years old and have higher glucose level than patients who didn't have stroke (0). 
 
-![Stroke_Prediction_project_2](stroke3.png)
+
 
 Patients who have higer levels of glucose have hypertension and had stroke.
 
