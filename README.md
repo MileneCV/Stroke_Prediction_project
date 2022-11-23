@@ -57,6 +57,8 @@ The best model tested was Logistic Regression after we change the original dataf
 
 Since this prediction is to diagnose stroke the better model is that with lower False negative rate and better recall. With logistic regression in the test data the accuracy was 75%, recall 82% and false negative rate was 17%.  Definitely was the better model: 
 
+![Stroke_Prediction_project_2](stroke4.png)
+
 
 Recommendations:
 More of your own text here
