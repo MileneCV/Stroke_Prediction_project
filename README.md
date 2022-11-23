@@ -64,7 +64,7 @@ Since this prediction is to diagnose stroke the better model is that with lower 
 Patient older than 40 years olde, with high glucose level or/and hypertension or/and heart disease have more proprability to have stroke. So is better search for stroke symptoms and start early treatment.  
 
 ### Limitations & Next Steps
-The better model has 17% of false negative rate and 75% of accuracy. They are not perfect number maybe is because the dataset is unbalaced  about 95% of pacients didn't have stroke and 5% had.
+The better model has 17% of false negative rate and 75% of accuracy. They are not perfect number, maybe it is because the dataset is unbalaced  about 95% of pacients didn't have stroke and 5% had.
 
 ### For further information
 For any additional questions, please contact milene.c.vallejo@gmail.com
