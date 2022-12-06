@@ -67,10 +67,12 @@ Since this prediction is to diagnose stroke the better model is one with a lower
 
 
 ### Recommendations:
-Patients older than 40 years old, with high glucose levels or/and hypertension or/and heart disease have more probability to have a stroke. So is better to search for stroke symptoms and start early treatment.  
+Patients older than 40 years old, with high glucose levels or/and hypertension or/and heart disease have higher risk to have a stroke. So is better to monitor for stroke symptoms and seek help in case of any symptom.
+
+  
 
 ### Limitations & Next Steps
-The better model has 17% of false negative rate and 75% of accuracy. They are not a perfect number, maybe it is because the dataset is unbalanced about 95% of patients didn't have a stroke and 5% had.
+The best model has 17% of false negative rate and 75% of accuracy. The prediction is not perfect, maybe due to the dataset being unbalanced as 95% of patients didn't have a stroke and only 5% had.
 
 ### For further information
 For any additional questions, please contact milene.c.vallejo@gmail.com
