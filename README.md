@@ -36,23 +36,20 @@ According to the World Health Organization (WHO), stroke is the second leading c
 
 ### Results
 
-
-![Stroke_Prediction_project_2](stroke11.png)
-
-Patients who have a high level of glucose had stroke (1) and heart disease(1).
-
-
-
 ![Stroke_Prediction_project_2](stroke12.png)
 
 Patients who had a stroke (1) are older than 40 years old and have higher glucose levels than patients who didn't have a stroke (0). 
 
 
+![Stroke_Prediction_project_2](heart.png)
+
+Patients who had stroke about 20% have heart disease and patients who didn’t have stroke less than 5% have heart disease. 
 
 
-![Stroke_Prediction_project_2](stroke13.png)
 
-Patients who have higher levels of glucose have hypertension and had stroke.
+![Stroke_Prediction_project_2](hypertension.png)
+
+Patients who had stroke about 25% have hypertension and patients who  didn’t have stroke less than 10 % have hypertension. 
 
 
 
