@@ -9,7 +9,7 @@
 
 ### Data:
 
-According to the World Health Organization (WHO) stroke is the second leading cause of death globally, responsible for approximately 11% of total deaths. This dataset is used to predict whether a patient is likely to get a stroke based on the input parameters like gender, age, various diseases, and smoking status. Each row in the data provides relevant information about the patient.
+According to the World Health Organization (WHO), stroke is the second leading cause of death globally, responsible for approximately 11% of total deaths. This dataset is used to predict whether a patient is likely to get a stroke based on the input parameters like gender, age, various diseases, and smoking status. Each row in the data provides relevant information about the patient.
 
 ### Methods
 
@@ -20,7 +20,7 @@ According to the World Health Organization (WHO) stroke is the second leading ca
 
 #### Machine Learning part: 
 - Dropping unnecessary columns.
-- Data preparation: check duplicates, check inconsistencies values, check the dtype of all columns. 
+- Data preparation: check duplicates, check inconsistencies values, check the type of all columns. 
 - Train/Test split: "stroke" column as the target.
 - Make selector columns because there are numbers and objects columns in this dataset.
 - Check missing values: There are missing values in the numeric column BMI which is float number and was used SimpleImputer with ‘mean strategy'.
