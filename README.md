@@ -36,7 +36,7 @@ According to the World Health Organization (WHO), stroke is the second leading c
 
 ### Results
 
-![Stroke_Prediction_project_2](stroke12.png)
+![Stroke_Prediction_project_2](age.png)
 
 Patients who had a stroke (1) are older than 40 years old and have higher glucose levels than patients who didn't have a stroke (0). 
 
