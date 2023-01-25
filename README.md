@@ -24,12 +24,12 @@ According to the World Health Organization (WHO), stroke is the second leading c
 - Train/Test split: "stroke" column as the target.
 - Make selector columns because there are numbers and objects columns in this dataset.
 - Check missing values: There are missing values in the numeric column BMI which is float number and was used SimpleImputer with ‘mean strategy'.
-- I used OHE for categorical columns and scaler for numeric columns since in machine learning the dataset needs to be all numeric and in the same scale. 
-- I made a numeric_pipe with scaler and SimpleImputer. 
-- I used make_column_transform to put all together (numeric and categorical). 
+- Used OHE for categorical columns and scaler for numeric columns since in machine learning the dataset needs to be all numeric and in the same scale. 
+- Made a numeric_pipe with scaler and SimpleImputer. 
+- Used make_column_transform to put all together (numeric and categorical). 
 - The stroke column is unbalanced so I will use SMOTE to oversample my data.
-- I used 4 Models:  logistic regression, Decision Tree Classifier, Randon Forest, and XGBClassifier. 
-- I tunned and/or used PCA and some features engineering. 
+- Used 4 Models:  logistic regression, Decision Tree Classifier, Randon Forest, and XGBClassifier. 
+- Tunned and/or used PCA and some features engineering. 
 - Evaluated the performance with classification_report and ConfusionMatrixDisplay.
 - I was looking for a model with a lower false negative rate which means with higher recall. 
  
