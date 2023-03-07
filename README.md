@@ -39,12 +39,17 @@ According to the World Health Organization (WHO), stroke is the second leading c
 
 
 ![Stroke_Prediction_project_2](age.png)
+
+
 Patients who had a stroke (1) are older than 40 years old and have higher glucose levels than patients who didn't have a stroke (0). 
 
 ![Stroke_Prediction_project_2](glucose.png)
+
+
 Stroke increases slightly with increased glucose
 
 ![Stroke_Prediction_project_2](heart.png)
+
 
 Patients who had stroke about 20% have heart disease and patients who didn’t have stroke less than 5% have heart disease. 
 
@@ -56,7 +61,7 @@ Patients who had stroke about 25% have hypertension and patients who  didn’t h
 
 
 
-### Model
+### Models
 The best model tested was Logistic Regression after we change the original dataframe with some feature engineering. 
 
 #### The most important metrics
@@ -65,27 +70,24 @@ Since this prediction is to diagnose stroke the better model is one with a lower
 
 ![Stroke_Prediction_project_2](all_model.png)
 
-#### Best model 
+#### Best model - Logistic Regression
+
 ![Stroke_Prediction_project_2](display.png)
 
 
 #### Extracting Coefficients from LogisticRegression
-![Stroke_Prediction_project_2](coeffs.png.png)
+![Stroke_Prediction_project_2](coeff.png)
 
 Positive values indicate the feature makes it more likely the patient will have a stroke (old ages, work_type_Private and Gov_job, hypertension, heart disease and high glucose levels)
 
 Negative values indicate the feature makes it less likely the patient will have a stroke.
 
 #### Convert the log-odds into odds
-![Stroke_Prediction_project_2](coeff_odds.png.png)
+![Stroke_Prediction_project_2](coeff_odds.png)
 
 ### Recommendations:
 Patients older than 40 years old, with high glucose levels or/and hypertension or/and heart disease have higher risk to have a stroke. So is better to monitor for stroke symptoms and seek help in case of any symptom.
 
   
-
-### Limitations & Next Steps
-The best model has 17% of false negative rate and 75% of accuracy. The prediction is not perfect, maybe due to the dataset being unbalanced as 95% of patients didn't have a stroke and only 5% had.
-
 ### For further information
 For any additional questions, please contact milene.c.vallejo@gmail.com
