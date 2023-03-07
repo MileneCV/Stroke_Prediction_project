@@ -32,14 +32,17 @@ According to the World Health Organization (WHO), stroke is the second leading c
 - Tunned and/or used PCA and some features engineering. 
 - Evaluated the performance with classification_report and ConfusionMatrixDisplay.
 - I was looking for a model with a lower false negative rate which means with higher recall. 
+- With the best model extract coefficients and interpreting odds coefficients
  
 
 ### Results
 
-![Stroke_Prediction_project_2](age.png)
 
+![Stroke_Prediction_project_2](age.png)
 Patients who had a stroke (1) are older than 40 years old and have higher glucose levels than patients who didn't have a stroke (0). 
 
+![Stroke_Prediction_project_2](glucose.png)
+Stroke increases slightly with increased glucose
 
 ![Stroke_Prediction_project_2](heart.png)
 
@@ -58,10 +61,23 @@ The best model tested was Logistic Regression after we change the original dataf
 
 #### The most important metrics
 
-Since this prediction is to diagnose stroke the better model is one with a lower False negative rate and better recall. With logistic regression in the test data, the accuracy was 75%, recall 82% and the false negative rate was 17%.  Was the better model: 
+Since this prediction is to diagnose stroke the better model is one with a lower False negative rate and better recall. With logistic regression in the test data, the accuracy was 77%, recall 75% and the false negative rate was 25%. 
 
-![Stroke_Prediction_project_2](stroke4.png)
+![Stroke_Prediction_project_2](all_model.png)
 
+#### Best model 
+![Stroke_Prediction_project_2](display.png)
+
+
+#### Extracting Coefficients from LogisticRegression
+![Stroke_Prediction_project_2](coeffs.png.png)
+
+Positive values indicate the feature makes it more likely the patient will have a stroke (old ages, work_type_Private and Gov_job, hypertension, heart disease and high glucose levels)
+
+Negative values indicate the feature makes it less likely the patient will have a stroke.
+
+#### Convert the log-odds into odds
+![Stroke_Prediction_project_2](coeff_odds.png.png)
 
 ### Recommendations:
 Patients older than 40 years old, with high glucose levels or/and hypertension or/and heart disease have higher risk to have a stroke. So is better to monitor for stroke symptoms and seek help in case of any symptom.
