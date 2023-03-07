@@ -70,20 +70,26 @@ Since this prediction is to diagnose stroke the better model is one with a lower
 
 ![Stroke_Prediction_project_2](all_model.png)
 
-#### Best model - Logistic Regression
+## Best model - Logistic Regression
 
 ![Stroke_Prediction_project_2](display.png)
 
 
-#### Extracting Coefficients from LogisticRegression
+### Extracting Coefficients from LogisticRegression
 ![Stroke_Prediction_project_2](coeff.png)
 
 Positive values indicate the feature makes it more likely the patient will have a stroke (old ages, work_type_Private and Gov_job, hypertension, heart disease and high glucose levels)
 
 Negative values indicate the feature makes it less likely the patient will have a stroke.
 
-#### Convert the log-odds into odds
+### Convert the log-odds into odds
 ![Stroke_Prediction_project_2](coeff_odds.png)
+
+Interpreting Odds Coefficients
+Females 80 and 70 years old are 7.2 and 4.0 times more likely to have a stroke respectively
+
+Males 80 and 70 years old are 5.9 and 3.8 times more likely to have a stroke respectively
+
 
 ### Recommendations:
 Patients older than 40 years old, with high glucose levels or/and hypertension or/and heart disease have higher risk to have a stroke. So is better to monitor for stroke symptoms and seek help in case of any symptom.
