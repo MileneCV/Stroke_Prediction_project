@@ -34,6 +34,13 @@ According to the World Health Organization (WHO), stroke is the second leading c
 - I was looking for a model with a lower false negative rate which means with higher recall. 
 - With the best model extract coefficients and interpreting odds coefficients
  
+ 
+ ### Heatmap
+ 
+ ![Stroke_Prediction_project_2](heat_map.png)
+ 
+  Stroke has a higher correlation with age (0.25) and mild correlation with hypertension, heart_disease and avg_glucose_level.
+ 
 
 ### Results
 
