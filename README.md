@@ -97,3 +97,12 @@ Patients older than 40 years old, with high glucose levels or/and hypertension o
   
 ### For further information
 For any additional questions, please contact milene.c.vallejo@gmail.com
+
+# Tableau Dashboard
+
+https://public.tableau.com/shared/4FGDD44JB?:display_count=n&:origin=viz_share_link
+
+![Stroke_Prediction_project_2](dashboard_stroke.png) 
+
+
+
