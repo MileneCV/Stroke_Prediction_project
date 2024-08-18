@@ -107,7 +107,7 @@ For any additional questions, please contact milene.c.vallejo@gmail.com
 
 # Tableau Dashboard
 
-https://public.tableau.com/shared/4FGDD44JB?:display_count=n&:origin=viz_share_link
+[https://public.tableau.com/shared/4FGDD44JB?:display_count=n&:origin=viz_share_link](https://public.tableau.com/app/profile/milene.carmes.vallejo7059/viz/stroke_project/filter_all_disease_simple)
 
 ![Stroke_Prediction_project_2](dashboard_stroke.png) 
 
