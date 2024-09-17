@@ -9,30 +9,30 @@
 
 ### Data:
 
-According to the World Health Organization (WHO), stroke is the second leading cause of death globally, responsible for approximately 11% of total deaths. This dataset is used to predict whether a patient is likely to get a stroke based on the input parameters like gender, age, various diseases, and smoking status. Each row in the data provides relevant information about the patient.
+According to the World Health Organization (WHO), stroke is the second leading cause of death globally, responsible for approximately 11% of total deaths. This dataset is used to predict whether a patient is likely to get a stroke based on input parameters such as gender, age, various diseases, and smoking status. Each row in the dataset provides relevant information about a patient.
 
 ### Methods
 
 #### Exploratory Visual and Analysis: 
 
-- The original dataframe was divided into 2: patients who had stroke and patients who didn't. 
-- Boxplot, barplot, lineplot and histplot were created to find a correlation between stroke and other features. 
+- The original dataframe was divided into two groups: patients who had stroke and those who did not. 
+- Boxplot, barplot, lineplot and histplot were created to examine correlation between stroke and other features. 
 
 #### Machine Learning part: 
-- Dropping unnecessary columns.
-- Data preparation: check duplicates, check inconsistencies values, check the type of all columns. 
-- Train/Test split: "stroke" column as the target.
-- Make selector columns because there are numbers and objects columns in this dataset.
-- Check missing values: There are missing values in the numeric column BMI which is float number and was used SimpleImputer with ‘mean strategy'.
-- Used OHE for categorical columns and scaler for numeric columns since in machine learning the dataset needs to be all numeric and in the same scale. 
-- Made a numeric_pipe with scaler and SimpleImputer. 
-- Used make_column_transform to put all together (numeric and categorical). 
-- The stroke column is unbalanced so I will use SMOTE to oversample my data.
-- Used 4 Models:  logistic regression, Decision Tree Classifier, Randon Forest, and XGBClassifier. 
-- Tunned and/or used PCA and some features engineering. 
+- Unnecessary columns were dropped..
+- Data preparation included checking for duplicates, inconsistent values, and verifying column data types. 
+- The dataset was split into training and testing sets, with the "stroke" column as the target variable.
+- A column selector was created to handle both numerical and categorical columns.
+- Missing values were found in the numerical column "BMI" (a float), and were imputed using the SimpleImputer with the 'mean' strategy.
+- One-hot encoding (OHE) was applied to categorical columns, and scaling was performed on numerical columns to ensure the dataset was entirely numeric and standardized.
+- Made a numeric_pipe was created using a scaler and SimpleImputer. 
+- Used make_column_transform to to combine both numeric and categorical features.
+- The stroke column was unbalanced so SMOTE was applied to oversample the data.
+- Four models were used: Logistic Regression, Decision Tree Classifier, Random Forest, and XGBClassifier.
+- Hyperparameter tuning and/or PCA, along with feature engineering, were applied.
 - Evaluated the performance with classification_report and ConfusionMatrixDisplay.
-- I was looking for a model with a lower false negative rate which means with higher recall. 
-- With the best model extract coefficients and interpreting odds coefficients
+- The goal was to find a model with a lower false negative rate, meaning a higher recall.
+- With the best model, coefficients were extracted and interpreted odds coefficients
  
  
  ### Heatmap
