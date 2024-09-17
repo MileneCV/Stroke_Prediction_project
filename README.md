@@ -26,7 +26,7 @@ According to the World Health Organization (WHO), stroke is the second leading c
 - Missing values were found in the numerical column "BMI" (a float), and were imputed using the SimpleImputer with the 'mean' strategy.
 - One-hot encoding (OHE) was applied to categorical columns, and scaling was performed on numerical columns to ensure the dataset was entirely numeric and standardized.
 - A numeric_pipe was created using a scaler and SimpleImputer. 
-- Used make_column_transform to to combine both numeric and categorical features.
+- Used make_column_transform to combine both numeric and categorical features.
 - The stroke column was unbalanced so SMOTE was applied to oversample the data.
 - Four models were used: Logistic Regression, Decision Tree Classifier, Random Forest, and XGBClassifier.
 - Hyperparameter tuning and/or PCA, along with feature engineering, were applied.
