@@ -92,7 +92,7 @@ Negative values indicate that the feature decreases the likelihood of the patien
 ### Convert the log-odds into odds
 ![Stroke_Prediction_project_2](coeff_odds.png)
 
-Interpreting Odds Coefficients
+### Interpreting Odds Coefficients
 Females 80 and 70 years old are 7.2 and 4.0 times more likely to have a stroke, respectively
 
 Males 80 and 70 years old are 5.9 and 3.8 times more likely to have a stroke, respectively
