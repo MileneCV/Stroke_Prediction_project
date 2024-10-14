@@ -11,6 +11,9 @@
 
 According to the World Health Organization (WHO), stroke is the second leading cause of death globally, responsible for approximately 11% of total deaths. This dataset is used to predict whether a patient is likely to get a stroke based on input parameters such as gender, age, various diseases, and smoking status. Each row in the dataset provides relevant information about a patient.
 
+### Objective: 
+The goal of this project is to develop a predictive model that can accurately assess a patient's risk of stroke based on factors such as age, gender, existing health conditions, and lifestyle habits. By providing healthcare providers with actionable insights, this model can help prioritize preventive care and reduce the incidence of stroke, ultimately improving patient outcomes and lowering overall healthcare costs.
+
 ### Methods
 
 #### Exploratory Visual and Analysis: 
